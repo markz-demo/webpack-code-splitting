@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "jsx": "preserve",
+        "baseUrl": ".",
+        "paths": {
+            "@images": [
+                "./assets/images"
+            ],
+            "common-ui/*": [
+                "./common/*"
+            ],
+            // "common-ui": [
+            //     "./common/components/*",
+            // ]
+        }
+    },
+    "exclude": [
+        "node_modules",
+        "assets",
+        "build",
+        "public"
+    ]
+}
