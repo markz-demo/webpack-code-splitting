@@ -1,15 +1,19 @@
 {
   "name": "webpack-code-splitting",
   "version": "1.0.0",
-  "description": "",
+  "description": "Webpack自定义公共组件库按需加载优化",
+  "homepage": "https://github.com/markz-demo/webpack-code-splitting",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markz-demo/webpack-code-splitting.git"
+  },
+  "license": "ISC",
   "scripts": {
     "dev": "webpack-dev-server --config webpack.dev.js",
     "build": "webpack --config webpack.config.js",
     "analy": "webpack --config webpack.analy.js",
     "prod": "webpack --config webpack.prod.js"
   },
-  "author": "",
-  "license": "",
   "devDependencies": {
     "@babel/core": "^7.20.12",
     "@babel/preset-env": "^7.20.2",
@@ -32,5 +36,9 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.6.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/markz-demo/webpack-code-splitting/issues"
+  },
+  "author": ""
 }
